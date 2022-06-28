@@ -1,0 +1,17 @@
+Package: CardinalNN
+Type: Package
+Title: A Cardinal side package of deep learning methods for mass spectrometry imaging experiments
+Version: 0.0.1
+Date: 2021-03-24
+Author: Dan Guo <guo.dan@northeastern.edu>
+Maintainer: Dan Guo <guo.dan@northeastern.edu>
+Description: Implements deep learning based tissue classification and m/z clustering methods. It is an interface to Python library `DeepMSI'
+License: Artistic-2.0
+Depends: BiocGenerics, BiocParallel, Cardinal, reticulate
+Imports: ggplot2
+Suggests: BiocStyle, testthat, knitr, rmarkdown
+VignetteBuilder: knitr
+biocViews: Software, Infrastructure, Proteomics, Lipidomics,
+		MassSpectrometry, ImagingMassSpectrometry, ImmunoOncology,
+		Deep learning, Clustering, Classification
+

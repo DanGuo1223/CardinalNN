@@ -1,0 +1,206 @@
+importFrom("graphics",
+	"abline",
+	"axis",
+	"boxplot",
+	"grid",
+	"hist",
+	"image",
+	"legend",
+	"lines",
+	"locator",
+	"par",
+	"persp",
+	"plot",
+	"points",
+	"polygon",
+	"rasterImage",
+	"rect",
+	"text",
+	"title")
+
+importFrom("stats",
+	"anova",
+	"approx",
+	"as.formula",
+	"dnorm",
+	"qnorm",
+	"rnorm",
+	"rlnorm",
+	"runif",
+	"convolve",
+	"kmeans",
+	"lm",
+	"loess",
+	"loess.control",
+	"median",
+	"optim",
+	"optimize",
+	"p.adjust",
+	"pchisq",
+	"pf",
+	"pt",
+	"quantile",
+	"relevel",
+	"setNames",
+	"smooth.spline",
+	"splinefun",
+	"supsmu")
+
+importFrom("nlme",
+	"lme")
+
+importFrom("parallel",
+	"nextRNGStream")
+
+import("BiocGenerics")
+
+import("BiocParallel")
+
+import("Biobase")
+
+importFrom("EBImage",
+	"Image",
+	"imageData",
+	"imageData<-",
+	"colorMode",
+	"colorMode<-",
+	"getFrame",
+	"getFrames",
+	"numberOfFrames")
+
+import("matter")
+
+import("methods")
+
+import("stats4")
+
+importFrom("Matrix",
+	"t",
+	"solve",
+	"chol")
+
+importFrom("dplyr",
+	"as_tibble",
+	"mutate",
+	"select",
+	"filter",
+	"summarize",
+	"summarise",
+	"arrange",
+	"group_by",
+	"group_by_drop_default",
+	"ungroup",
+	"groups",
+	"grouped_df",
+	"collect")
+
+importFrom("magrittr",
+	"%>%")
+
+import("S4Vectors")
+
+import("ProtGenerics")
+
+importFrom("grDevices",
+	"as.raster",
+	"col2rgb",
+	"colorRamp",
+	"dev.list",
+	"hcl",
+	"heat.colors",
+	"rainbow",
+	"rgb",
+	"topo.colors",
+	"trans3d")
+
+importFrom("viridisLite",
+	"viridis",
+	"cividis",
+	"magma",
+	"inferno",
+	"plasma")
+
+importFrom("irlba",
+	"irlba")
+
+importFrom("lattice",
+	"xyplot",
+	"levelplot",
+	"panel.abline",
+	"panel.xyplot",
+	"panel.levelplot",
+	"simpleKey")
+
+importFrom("mclust",
+	"Mclust",
+	"mclustBIC")
+
+importFrom("signal",
+	"interp1",
+	"kaiser",
+	"pchip",
+	"sgolayfilt")
+
+importFrom("sp",
+	"coordinates",
+	"coordinates<-",
+	"coordnames",
+	"coordnames<-",
+	"gridded",
+	"gridded<-",
+	"point.in.polygon")
+
+importFrom("utils",
+	"capture.output",
+	"flush.console",
+	"object.size",
+	"packageDescription",
+	"packageVersion",
+	"savehistory",
+	"sessionInfo",
+	"setTxtProgressBar",
+	"txtProgressBar")
+
+import("Cardinal")
+
+import("reticulate")
+
+import('ggplot2')
+
+
+exportMethods(
+	"summary")
+
+exportMethods(
+	"image",
+	"image3D",
+	"plot")
+
+exportMethods(
+	"predict")
+
+
+
+
+exportMethods(
+	"crossValidate",
+	"cvApply")
+
+
+
+
+
+
+
+
+
+
+
+exportMethods(
+	"multipleInstanceCNN")
+
+exportMethods("topFeatures")
+
+
+
+#useDynLib("CardinalNN", .registration=TRUE)
