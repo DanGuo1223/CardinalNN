@@ -64,9 +64,9 @@ sudo python3 setup.py install
 The dataset is the same as XXX. We use TMA1 as the training set and TMA2 as the testing dataset.
 
 ```{r, echo = TRUE}
-load('mse_train.rdata')
+load(paste0(dirname(getwd()), '/mse_train.rdata'))
 mse <- mse_train
-load('mse_test.rdata')
+load(paste0(dirname(getwd()), '/mse_test.rdata'))
 mse_train <- mse_test
 mse_test <- mse_train
 image(mse,feature=1)

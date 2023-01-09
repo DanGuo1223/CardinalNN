@@ -7,7 +7,7 @@ Author: Dan Guo <guo.dan@northeastern.edu>
 Maintainer: Dan Guo <guo.dan@northeastern.edu>
 Description: Implements deep learning based tissue classification and m/z clustering methods. It is an interface to Python library `DeepMSI'
 License: Artistic-2.0
-Depends: BiocGenerics, BiocParallel, Cardinal, reticulate
+Depends: BiocGenerics, BiocParallel, Cardinal, reticulate, ggplot2
 Imports: ggplot2
 Suggests: BiocStyle, testthat, knitr, rmarkdown
 VignetteBuilder: knitr
