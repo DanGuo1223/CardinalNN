@@ -213,10 +213,10 @@ setMethod("summary", "MiCNN_classification",
               specificity(y, res$class, positive=pos))
             out <- SummaryDataFrame(
               `classifier_name`=modelData(object)$model_name,
-              `training`=metadata(object)$method,
+              `method`=metadata(object)$method,
               Accuracy=acc, Sensitivity=sens, Specificity=spec,
               .summary=list("DNN classification:\n",
-                            description, paste0(" training = ", metadata(object)$method),
+                            description, paste0(" method = ", metadata(object)$method),
                             paste0(" epochs = ", metadata(object)$epochs, "\n")))
             
             metadata(out)$modelData <- modelData(object)
